@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="Description" content="Colegio Juan B Caballero Medina">
+    <title>Pagina Juan B Caballero Medina</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+	  
+	<!--Estilos-->
+	<link href="css/Estilos.css" rel="stylesheet" type="text/css">
+	<link href="css/Moviles2.css" rel="stylesheet" type="text/css" media="screen and (orientation:landscape) and (max-width:1200px)">
+	<link href="css/Moviles.css" rel="stylesheet" type="text/css" media="screen and (orientation:portrait) and (max-width:767px)">
+	
+	
+</head>
+  <body>
+  	<!-- body code goes here -->
+	  
+	  <script>
+		  
+		  function sololetras(e){
+			  key=e.keyCode || e.which;
+			  teclado=String.fromCharCode(key).toLocaleLowerCase();
+			  letras="abcdefghijklmnñopqrstuvwxyz";
+			  especiales="8-37-38-46-164";
+			  teclado_especial=false;
+			  for(var i in especiales){
+				  if(key==especiales[i]){
+					  teclado_especial=true;break;
+				  }
+				  
+			  }
+			  
+			  if(letras.indexOf(teclado)==-1 && !teclado_especial){
+				  
+				  return false;
+				  
+			  }
+			  
+		  }
+		  
+		   function solonumeros(e){
+			  key=e.keyCode || e.which;
+			  teclado=String.fromCharCode(key);
+			  letras="0123456789";
+			  especiales="8-37-38-46";
+			  teclado_especial=false;
+			  for(var i in especiales){
+				  if(key==especiales[i]){
+					  teclado_especial=true;break;
+				  }
+				  
+			  }
+			  
+			  if(letras.indexOf(teclado)==-1 && !teclado_especial){
+				  
+				  return false;
+				  
+			  }
+			  
+		  }
+	  
+	  
+	  
+	  
+	  </script>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+	  
+  <header>
+    <div class="Contenedor">
+		
+	  <div class="logo"> <a href="Index.html"><img src="Imagenes/logo.png"  alt="Escudo del Colegio"/></a> 
+	  </div>
+	
+	  <div class="Redes-Sociales">
+		<p><a  href="https://es-la.facebook.com/colegiojuanbcaballero/" target="_blank">
+		  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+		    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+		    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+	    </svg>
+		</a></p>
+		  
+		<p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="4" width="16" height="16" rx="4" />
+        <circle cx="12" cy="12" r="3" />
+        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+        </svg></p>
+		
+		<p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+        </svg></p>
+		  
+		<p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="3" y="5" width="18" height="14" rx="4" />
+        <path d="M10 9l5 3l-5 3z" />
+        </svg></p>
+	  
+	    </div>
+	  </div>
+	  
+    <nav class="Menu-Superior">
+	  
+		<ul>
+		   <li><a href="#portafolio">Portafolio</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a class="inicio" href="index.html">Inicio</a></li>
+			<li><a href="#nosotros">Nosotros</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+	       
+			
+		</ul>
+	  
+	</nav>
+  </header>  
+<main>	  
+  <section class="slider">
+		
+	  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+			
+	    </ol>
+		  <div class="carousel-inner" role="listbox">
+		    <div class="carousel-item active"> <img class="d-block mx-auto" src="Imagenes/Imagen1.jpeg" alt="First slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Parte Trasera de los salones</p>
+	          </div>
+	        </div>
+		    <div class="carousel-item"> <img class="d-block mx-auto" src="Imagenes/Imagen2.jpeg" alt="Second slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Edificio Nuevo</p>
+	          </div>
+	        </div>
+		    <div class="carousel-item"> <img class="d-block mx-auto" src="Imagenes/Imagen3.jpeg" alt="Third slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Polideportivo</p>
+	          </div>
+	        </div>
+			
+			<div class="carousel-item"> <img class="d-block mx-auto" src="Imagenes/Imagen4.jpeg" alt="Third slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Sendero hacia la cafeteria</p>
+	          </div>
+	        </div>
+			
+			<div class="carousel-item"> <img class="d-block mx-auto" src="Imagenes/Imagen5.jpeg" alt="Third slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Parqueadero</p>
+	          </div>
+	        </div>
+			  
+			<div class="carousel-item"> <img class="d-block mx-auto" src="Imagenes/Imagen6.jpeg" alt="Third slide">
+		      <div class="carousel-caption">
+		        <h5>Instalaciones del colegio</h5>
+		        <p>Parque Central</p>
+	          </div>
+	        </div>
+			
+			
+	    </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </section>
+	
+	<section class="blog" id="blog">
+		
+	  <nav class="Menu-Superior">
+		
+		  <ul>			  
+			  <li>Blog</li>
+		  
+		  </ul>		
+	  </nav>
+		
+	  <div class="Contenedor-Blog">
+		  
+	    <div class="Contenedor-Entrada">
+			
+	       <img src="Imagenes/Blog/Eventos.jpg"  alt=""/>
+		   <h3>Eventos</h3>
+		   <p>Pagina de Eventos Colegio Juan B Caballero</p>
+		   <a href="https://es-la.facebook.com/colegiojuanbcaballero/" target="_blank" class="Leer-Mas">Leer Mas..</a>
+		
+		  
+		</div>
+		
+		 <div class="Contenedor-Entrada">
+			
+	       <img src="Imagenes/Blog/Egresados.jpg"  alt=""/>
+		   <h3>Egresados</h3>
+		   <p>Pagina de Egresados Colegio Juan B Caballero</p>
+		   <a class="Leer-Mas" href="#">Leer Mas..</a>
+		
+		  
+		</div>
+		  
+		<div class="Contenedor-Entrada movil1200">
+			
+	       <img src="Imagenes/Blog/Podcast.jpg"  alt=""/>
+		   <h3>Colpegasus</h3>
+		   <p>Software Académico (Matriculas,Notas,etc.)</p>
+		   <a href="https://awp.s4.colpegasus.com/?id=7123" target="_blank" class="Leer-Mas">Leer Mas..</a>   
+		
+		  
+		</div>
+		
+      </div>
+    </section>
+		
+	<section class="portafolio" id="portafolio">
+		
+	  <nav class="Menu-Superior">
+		  
+		  <ul>			  
+			  <li>Portafolio</li>	  
+		  
+		  </ul>		
+	  </nav>
+	  
+      <div class="Contenedor-Portafolio">
+		  
+		  
+	    <div class="container-fluid">
+		    <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+		      <li class="nav-item celular"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Preescolar</a> </li>
+		      <li class="nav-item celular"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Primaria</a> </li>
+		      <li class="nav-item celular"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Basica</a> </li>
+			  <li class="nav-item celular"> <a class="nav-link" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Media</a> </li>
+		      <li class="nav-item celular1"> <a class="nav-link" href="#paneTwo4" role="tab" id="hatstab4" data-toggle="tab" aria-controls="hats">Media Tecnica</a> </li>
+			 
+	      </ul>
+		    <!-- Content Panel -->
+		    <div id="clothingnavcontent1" class="tab-content">
+		      <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+		        <h2>Preescolar: Grado Transición</h2>
+			    <img src="Imagenes/Portafolio/1.jpg"  alt=""/> 
+				<p>Actualmente el colegio Juan B Caballero medina Presta el servicio de preescolar unicamente en el grado Transición ya que, segun el ministerio de educacion nacional, su oferta es de carácter obligatorio más no es pre-requisito para ingresar al curso primero de primaria.Y su oferta es para niños con 5 años recien cumplidos.  </p>
+				<h3>Caracteristicas del Servicio:</h3>
+				<ul>
+					
+					<li>Doncente Titular Profesional en educacion infantil y primera infancia.</li>
+					<li>Grupos Maximos de 25 niños.</li>
+					<li>Horario: 7:30am a 11:30 am.</li>
+				  
+				
+				</ul>
+				  
+				</div>
+		      <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+		        <h2>Primaria: Grado 1° a 5°</h2>
+			    <img src="Imagenes/Portafolio/2.jpg"  alt=""/> 
+				<p>En este momento el colegio Juan B Caballero medina Presta el servicio de primaria en todos los grados es decir, de grado Primero a Quinto, caracterizandonos por un componente pedagógico que se fundamenta en calidad, educación integral, valores y docentes idóneos para lograrlo. 
+				</p>
+				<h3>Caracteristicas del Servicio:</h3>
+				<ul>
+					
+					<li>Doncente Titular Profesional Licenciado.</li>
+					<li>Grupos Maximos de 35 niños.</li>
+					<li>Horario: 1:00 pm a 6:00 pm.</li>
+				  
+				
+				</ul>
+	          </div>
+				
+			   <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab1">
+		        <h2>Basica: Grado 6° a 9°</h2>
+			    <img src="Imagenes/Portafolio/3.jpg"  alt=""/> 
+				<p>Principalmente el colegio Juan B Caballero medina Presta el servicio de basica secundaria que está formado por todos los grados que conforman el ciclo; es decir, 6°, 7°, 8° y 9°.Teniendo claro que se utiliza una metodología de enseñanza un poco diferente comparada con la de primaria, en el sentido de que en secundaria la enseñanza de las asignaturas está a cargo de un docente en particular, con la gran ventaja de que todos los maestros partícipes del proceso son licenciados titulados y/o profesionales en una disciplina afín con el área de enseñanza. Asi mismo, ha de destacar el proceso de diagnóstico y preparación que se inicia desde el grado noveno con miras a la escogencia del programa de preferencia que los estudiantes realizan para iniciar la formación con el Servicio Nacional de Aprendizaje Sena en la media tecnica.  
+				</p>
+				<h3>Caracteristicas del Servicio:</h3>
+				<ul>
+					
+					<li>Doncente Particular en cada una de las 10 Asignaturas Licenciado/Profesional.</li>
+					<li>Grupos Maximos de 40 niños.</li>
+					<li>Horario: 6:15 am a 12:15 pm.</li>
+				  
+				
+				</ul>
+	          </div>
+				
+			  <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab1">
+		        <h2>Media: Grado 10° a 11°</h2>
+			    <img src="Imagenes/Portafolio/4.jpg"  alt=""/> 
+				<p>Conformada por los grados Décimo (10°) y Undécimo (11°). En este nivel la institución  Juan B Caballero Mediana va forjando en los estudiantes una mentalidad de responsabilidad y dinamismo, en la que ven la necesidad de buscar su propia formación para tener en el futuro una mayor oportunidad de servir a la comunidad y de vivir mejor en este mundo de globalización y competitividad.</p>
+				  
+				<p>
+                El nivel media en nuestra institución es de carácter academico, pero tambien técnico, con especialidad en Diseño E integración De Multimedia y Conservacion de Recursos Naturales, además, se les imparte las áreas obligatorias y fundamentales del que habla el artículo 23 de la Ley 115.				 
+				</p>
+				<h3>Caracteristicas del Servicio:</h3>
+				<ul>
+					
+					<li>Doncente Particular en cada una de las 10 Asignaturas Licenciado/Profesional.</li>
+					<li>Grupos Maximos de 40 niños.</li>
+					<li>Horario: 6:15 am a 12:15 pm.</li>
+				  
+				
+				</ul>
+	          </div>
+			  
+			  <div role="tabpanel" class="tab-pane fade" id="paneTwo4" aria-labelledby="hatstab1">
+		        <h2>Media Tecnica: Convenio SENA</h2>
+				  
+			    
+				<div class="Contenedor-Sena">			
+	                <img src="Imagenes/Portafolio/5 (1).jpg"  alt=""/>
+		            <h3>Técnico En Diseño E integración De Multimedia</h3>		
+		        </div>
+				  
+				<div class="Contenedor-Sena ambiental">			
+	                <img src="Imagenes/Portafolio/5 (2).jpg"  alt=""/>
+		            <h3>Técnico En  Conservación de Recursos Naturales</h3>		
+		        </div>
+				
+				<p>La integración del Sena con la Educación Media es un conjunto de acciones orientadas al fortalecimiento de la Educación Media en Colombia mediante la integración de programas del SENA con las instituciones Educativas, para que los estudiantes de los grados 9°, 10° y 11° adquieran y desarrollen competencias laborales, que facilite su continuidad en la cadena de formación o su vinculación al sector productivo.</p>
+				  
+				<p>
+                En este proceso hemos contado con el apoyo del Ministerio de Educación Nacional, la Secretaría de Educación Municipal  y El Servicio Nacional de Aprendizaje SENA. Los dos primeros han orientado a la Institución Educativa para incorporar en el PEI, el programa de formación para el trabajo y que éste sea coherente con el plan de desarrollo regional, y el Servicio Nacional de Aprendizaje Sena se ha encargado de actualizar técnica y pedagógicamente a los docentes de la institución, asesorar en la adecuación de ambientes educativos de formación para el trabajoy realizar el acompañamiento y apoyo en la ejecución del programa entre otros. La institución Juan B Caballero Medina como entidad encargada de suministrar el material humano y logístico se ha comprometido también, entre otras cosas, incluir los programas de formación para el trabajo en el PEI, contar con infraestructura y docentes técnicos, establecer alianzas con empresas que permitan la práctica para los aprendices, impartir los programas de formación para el trabajo con la metodología y criterios de calidad establecidos por el SENA, hacer seguimiento a aprendices en etapa práctica, hacer transferencia de diseños y medios didácticos de programas a articular, actualizar técnica y pedagógicamente a los docentes de las institución, asesorar en la adecuación de ambientes educativos de formación para el trabajo, así como acompañar y apoyar en la ejecución del programa, evaluación y certificación de los aprendices.				 
+				</p>
+				
+				<p>
+					En la actualidad nuestros estudiantes se encuentran en la línea de formación técnica, específicamente en dos programas,Diseño E integración De Multimedia y Conservacion de Recursos Naturales, los cuales tienen una duración de dos (02) años, iniciado desde el grado décimo de Educación Media y el cual debe terminar de manera paralela con el grado undécimo. El tiempo dedicado a la formación es de  ocho (12) horas semanales presenciales, en el que los aprendices con orientación directa del instructor del Sena y el docente par de la institución.
+				  
+				  
+				</p>
+				<h3>Caracteristicas del Servicio:</h3>
+				<ul>
+					
+					<li>Intructor/a del SENA y Docente Par por parte de la Institución.</li>
+					<li>Grupos Maximos de 40 Aprendices.</li>
+					<li>Horario: 2:00 pm  a 6:00 pm 3 días a la semana.</li>
+				  
+				
+				</ul>
+	          </div>
+			  
+			   
+		      
+	      </div>
+	    </div>
+      </div>
+    </section>
+	<section class="nosotros" id="nosotros">
+		
+      <nav class="Menu-Superior">
+		  <ul>
+			  <li>Nosotros</li>
+		  </ul>
+	  </nav>
+      <div class="Contenedor-Nosotros">
+	    <div class="Nosotros-Mision0">
+		   <div class="Nosotros-Icono1">
+			   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-school" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                     <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+               </svg>
+			
+		   </div>
+		   <h2>Historia</h2>
+           <p> Nuestra institucion  fue creada en el barrio Las Américas, impulsado por el talento y empeño de un grupo de señoras, líderes comunitarias del sector, quienes adelantaron y promovieron su creación con el interés de que los niños y jóvenes pudiesen estudiar hasta terminar la educación media. En consecuencia, el 2 de febrero del año 1993:   fue nombrado el licenciado   Luís Heberto Leyton Brito, como Rector para que adelantara el proceso de matrícula y se pudiese hacer el nombramiento de los educadores. El Colegio inició con 135 alumnos con tres grados de sexto y uno de séptimo.</p>
+		  
+			  
+		  <p>Los primeros profesores en llegar a la institución en el año 1993 fueron: Lic. Héctor Fabio Leal Villalba, Lic. Luís Enrique Ballén, Lic. Aída Yaneth Bacca Beltrán, Lic. Nelson Giovanni Moreno Ruiz, Lic. Martha Cecilia Martínez Baquero, Lic. Ana Belén Pérez de Umaña, Lic. Bernardita Moya González, secretario Pagador Benjamín Ricardo Rodríguez Vera. El licenciado Luís Heberto Leyton Brito, primer rector del colegio, emprendió asesorado por la secretaria de Educación en la persona del Lic. Jesús María Gómez Gómez y la secretaria de Obras Públicas en la administración como alcalde Municipal, doctor Juan de Dios Bermúdez Díaz. La consecución del terreno, la elaboración del plan general, la asignación del presupuesto y las licencias pertinentes para su construcción.</p>
+		  
+			  
+		  <p>El Colegio Juan Bautista Caballero Medina, no se pudo construir en el barrio Las Américas, como era la intención del grupo de padres de familia que lideraba esta bonita idea y el deseo del señor Gobernador doctor Omar Baquero Soler, era de no hacer colegios con hacinamiento, sino que se pudiera contar con espacios pedagógicos, recreativos y locales que proporcionaran a los alumnos y maestros un sano, amable y acogedor ambiente de trabajo. Fue así como se procedió a su legalización y construcción del mismo en un terreno cercano al barrio Las Américas, actualmente barrio Llano lindo. Hoy en día el colegio cuenta con mas de 500 alumnos, liderados por el señor Rector Alvaro Hernandez Mora desde el año 2004.</p>
+			  
+		  
+		 
+        </div>
+		  
+		 <div class="Nosotros-Mision">
+		  <div class="Nosotros-Icono2">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-medal" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                       <path d="M12 4v3m-4 -3v6m8 -6v6" />
+                       <path d="M12 18.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5z" />
+             </svg>
+			 
+		  </div>
+		  <h2>Misión</h2>
+		  <p> Formar ciudadanos moralmente autónomos, ética y políticamente responsables de sus deberes y derechos civiles. Laboralmente competentes y comprometidos en el mejoramiento de las condiciones de vida en su entorno.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+		  
+        </div>
+		  
+		<div class="Nosotros-Mision">
+		  <div class="Nosotros-Icono3">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye-check" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                   <circle cx="12" cy="12" r="2" />
+                   <path d="M12 19c-4 0 -7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7c-.42 .736 -.858 1.414 -1.311 2.033" />
+                  <path d="M15 19l2 2l4 -4" />
+             </svg>
+		  
+		  </div>
+		  <h2>Visión</h2>
+		  <p> Ser reconocidos como una comunidad educativa en la que el desarrollo moral integral sea la base del crecimiento personal de sus escolares y de su proyección en sociedad. Personas comprometidas con su proyecto de vida, en la búsqueda de soluciones a los problemas de su entorno.</p>
+		  
+        </div>
+      </div>
+    </section>
+	
+	  <section class="Contacto" id="contacto">
+	    <nav class="Menu-Superior">
+			
+			<ul>
+				<li>Contacto</li>
+			
+			</ul>	  
+		  
+		</nav>
+		  
+		<div class="Contenedor-Contacto">
+			
+		  <div class="Contenedor-Formulario">
+			  
+			  <form action="https://formsubmit.co/jairmendez@juanbcaballero.edu.co" method="POST">
+			  <p>
+			    <label for="textfield">NOMBRE</label>
+			  </p>
+			  <p>
+				  <input name="nombre" type="text" id="nombre" placeholder="Digite Su Nombre" class="cajas" required onKeyPress="return sololetras(event)">
+			  
+			  </p>
+				
+			  <p>
+			    <label for="tel">TELEFONO</label> 
+			  </p>
+			  <p>
+				  <input name="tel" type="tel" id="tel" placeholder="Digite su teléfono" class="cajas" required onKeyPress="return solonumeros(event)">
+			  </p>
+			  <p>
+			    <label for="email">EMAIL</label>
+			  </p>
+			  <p>
+				  <input name="email" type="email" id="email" placeholder="Digite su E-mail" class="cajas" required>
+			  </p>
+				
+			  <p>
+			    <label for="textarea"> MENSAJE</label>			  
+			  </p>
+			  <p>
+				  <textarea name="mensaje" class="cajas"  id="mensaje" required></textarea>
+			  
+			  </p>
+				  
+				  <input type="hidden" name="_next" value="https://colegiojuanbcaballeromedina.github.io/JuanBCaballeroMedina">
+				
+			  <p>
+			    <input type="submit" name="submit" id="submit" value="Enviar" required>
+				
+		      </p>
+				
+			   
+			  
+			  
+			
+			</form>
+		
+			
+		  </div>
+			
+		  <div class="Contenedor-Formulario">
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3979.4909492617076!2d-73.6517625!3d4.1233451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e1f18349361%3A0x188a0fc4fb8c7d3c!2sColegio%20Juan%20B%20Caballero!5e0!3m2!1ses!2sco!4v1662397333809!5m2!1ses!2sco"   style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
+		  </div>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="Footer-Redes">
+	  <div class="Contenedor-Pie">
+		<div class="Elementos-pie">
+            <h3>Gracias por su visita</h3>
+			 <a href="Index.html"><img src="Imagenes/logo.png"  alt=""/></a>
+				  
+		</div>
+		  
+		<div class="Elementos-pie"> 
+            <h3>Nuestra Bandera</h3>
+			<img class="bandera" src="Imagenes/Bandera.jpg"  alt=""/>			
+		  
+		</div>
+		
+		<div class="Elementos-pie">
+			<h3>Visita nuestras Redes Sociales</h3>
+			
+			<div class="redes">
+				
+				<p class="facebook"><a  href="https://es-la.facebook.com/colegiojuanbcaballero/" target="_blank">
+		        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+		        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+		        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+	            </svg>
+		        </a></p>
+			<p><a href="#">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+			    <rect x="4" y="4" width="16" height="16" rx="4" />
+			    <circle cx="12" cy="12" r="3" />
+			    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+		    </svg>
+			</a></p>
+		
+		    <p><a href="#">
+		      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+		        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+		        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+	        </svg>
+		    </a></p>
+		  
+		   <p class="youtube"><a href="#">
+		     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+		       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+		       <rect x="3" y="5" width="18" height="14" rx="4" />
+		       <path d="M10 9l5 3l-5 3z" />
+	       </svg>
+		   </a></p>
+			
+			
+			
+			
+		  </div>
+			
+			
+		  
+		</div>
+		
+		<div class="Elementos-pie">
+            
+			<p class="gracias">Cuando se Realizan proyectos nacidos del corazón y apoyados con el deseo y la responsabilidad, de seguro los resultados serán satisfactorios, como lo es y será, nuestro Colegio Juan B Caballero Medina, Muchas Gracias por tu Visita a la comunidad Caballerista.</p>
+		  
+		</div> 
+		
+		
+      </div>
+    </div>
+	<div class="Footer-Pie">
+		<p>Todos los Derechos Reservados 2022©</p>
+		<p>Tel: 315 8416521</p>
+		<p>Direción: Cl 4Sur #52-04, Llano Lindo, Villavicencio, Meta </p>		<p>Email: secretaria@juanbcaballero.edu.co</p>
+	  
+   
+	</div>
+  </footer>
+	  
+  <div class="Ir-hacia-Arriba">
+	  
+	  <p>
+		  <a href="">
+			  
+			  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="12" cy="12" r="9" />
+              <line x1="12" y1="8" x2="8" y2="12" />
+             <line x1="12" y1="8" x2="12" y2="16" />
+             <line x1="16" y1="12" x2="12" y2="8" />
+          </svg>
+		  
+		  
+		  
+		  </a>
+	  </p>
+	  
+	  
+  </div>
+  
+  </body>
+</html>
