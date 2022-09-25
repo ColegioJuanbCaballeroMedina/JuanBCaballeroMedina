@@ -1,0 +1,54 @@
+@charset "utf-8";
+.slider{display:none}
+body header{float:left}
+.Contenedor .logo{width:26%;margin-right:0;margin-left:8%}
+.Contenedor .Redes-Sociales{width:45%;margin-left:0;margin-top:6%;margin-bottom:0}
+.Contenedor .Redes-Sociales p{margin-top:20px;margin-left:5px;width:21%;height:21%}
+.Contenedor .Redes-Sociales p .icon{width:32px;height:32px}
+.Menu-Superior ul{position:relative;right:5%}
+.Menu-Superior ul li{margin-top:0;margin-right:2%;margin-bottom:0;margin-left:2%}
+ul li a{font-size:27px}
+.Menu-Superior ul li{font-size:27px;position:relative}
+ul li .inicio,ul li a:hover{font-size:37px}
+#blog{margin-top:0}
+#blog .Contenedor-Blog{width:95%;margin-left:auto;margin-right:auto;position:relative;right:3px}
+#blog .Contenedor-Blog .Contenedor-Entrada{display:block;float:none;width:100%;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px}
+.Contenedor-Blog .Contenedor-Entrada h3{font-size:24px}
+.Contenedor-Blog .Contenedor-Entrada p{font-size:17px}
+.Contenedor-Blog .Contenedor-Entrada .Leer-Mas{font-size:24px}
+#portafolio .Contenedor-Portafolio{width:95%;margin-left:auto;margin-right:auto}
+#portafolio .Contenedor-Portafolio .container-fluid{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
+.Contenedor-Portafolio .container-fluid #clothingnav1{background-color:#5F5F61;border:1px solid #353334;border-radius:10px;margin-bottom:16px}
+.Contenedor-Portafolio .container-fluid #clothingnavcontent1 .tab-pane{padding-top:2%;padding-right:5%;padding-bottom:2%;padding-left:5%;border-width:1px}
+#clothingnav1> .nav-item> .nav-link{margin-left:0;margin-right:0;font-size:22px}
+.container-fluid #clothingnav1 .celular{padding-left:0;padding-right:0;width:50%;display:block;float:none;border-radius:0;border-bottom:1px solid #000}
+.container-fluid #clothingnav1 .celular1{width:100%;text-align:center}
+#clothingnavcontent1 .tab-pane h2{font-size:24px}
+#clothingnavcontent1 .tab-pane p{font-size:17px}
+#clothingnavcontent1 .tab-pane h3{font-size:20px}
+.tab-pane ul li{font-size:17px}
+#clothingnavcontent1 #paneTwo4 .Contenedor-Sena{width:100%}
+#nosotros .Contenedor-Nosotros{width:95%}
+#nosotros .Contenedor-Nosotros .Nosotros-Mision0{margin-bottom:.1px;padding-top:12px;padding-right:12px;padding-bottom:12px;padding-left:12px;border-width:1px}
+.Contenedor-Nosotros .Nosotros-Mision0 .Nosotros-Icono1{width:65px;height:65px;padding-top:2px;padding-right:2px;padding-bottom:2px;padding-left:2px}
+.Contenedor-Nosotros .Nosotros-Mision0 h2{font-size:24px}
+.Contenedor-Nosotros .Nosotros-Mision0 p{font-size:17px}
+#nosotros .Contenedor-Nosotros .Nosotros-Mision{width:100%;margin-top:16px;margin-right:0;margin-bottom:16px;margin-left:0;padding-top:12px;padding-right:12px;padding-bottom:12px;padding-left:12px;border-width:1px}
+.Contenedor-Nosotros .Nosotros-Mision .Nosotros-Icono2{width:65px;height:65px;padding-top:2px;padding-right:2px;padding-bottom:2px;padding-left:2px}
+.Contenedor-Nosotros .Nosotros-Mision .Nosotros-Icono3{width:65px;height:65px;padding-left:2px;padding-top:2px;padding-right:2px;padding-bottom:2px}
+#nosotros .Contenedor-Nosotros div:nth-of-type(3){margin-top:0}
+.Contenedor-Nosotros .Nosotros-Mision h2{font-size:24px}
+.Contenedor-Nosotros .Nosotros-Mision p{font-size:17px}
+#contacto .Contenedor-Contacto{width:95%;margin-top:.1px}
+#contacto .Contenedor-Contacto .Contenedor-Formulario{width:100%;margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px}
+.Contenedor-Formulario form p{font-size:18px;margin-top:0;margin-right:0;margin-bottom:5px;margin-left:0}
+.Contenedor-Contacto .Contenedor-Formulario iframe{height:350px}
+.Footer-Redes .Contenedor-Pie{width:95%}
+.Footer-Redes .Contenedor-Pie .Elementos-pie{display:block;width:100%;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px}
+.Elementos-pie a img{margin-top:0;margin-right:0;margin-bottom:0;margin-left:15%}
+.Contenedor-Pie .Elementos-pie .bandera{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.Contenedor-Pie .Elementos-pie .redes{width:85%;margin-left:auto;margin-right:auto}
+.Contenedor-Pie .Elementos-pie p>a>svg.icon{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.Elementos-pie .redes>p{display:inline-block;margin-left:5%;margin-right:5%;width:16%;height:16%}
+.Elementos-pie .redes .facebook,.Elementos-pie .redes .youtube{margin-left:0;margin-right:0}
+.Contenedor-Pie .Elementos-pie p.gracias{margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:10px;position:relative;bottom:30px;font-size:18px}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+@font-face{font-family:Titulo;src:url(../fonts/titulo.ttf)}
+header{width:100%;height:auto;background-color:#353334;z-index:30;margin-bottom:0}
+body{background-color:gray}
+.Contenedor{width:85%;margin-right:auto;margin-left:auto}
+.Contenedor .logo{float:left}
+.Contenedor .logo img{width:90px;margin-top:10px;margin-bottom:10px}
+.Contenedor .Redes-Sociales{width:450px;float:right;margin-left:0}
+.Contenedor .Redes-Sociales p{float:left;margin-top:30px;margin-left:60px;width:auto}
+.Redes-Sociales p .icon{width:48px;min-width:0;height:48px}
+.Menu-Superior{width:100%;clear:both;background-color:#5F5F61}
+.Menu-Superior ul{text-align:center}
+.Menu-Superior ul li{display:inline;margin-left:5%;margin-right:5%}
+ul li a{color:#313469;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-weight:500;font-size:30px}
+ul li a:hover{text-decoration:none;color:#BB3031;font-size:40px}
+ul li .inicio{color:#BB3031;font-size:40px}
+ul li .inicio:hover{color:#313469}
+.carousel-item.active .carousel-caption h5{font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;color:#FFF;font-style:italic;font-size:30px}
+.carousel-item .carousel-caption p{font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-size:20px}
+.Menu-Superior ul li{font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-weight:500;font-size:30px;color:#313469;border-width:medium}
+.slider #carouselExampleIndicators1{margin-bottom:16px}
+.carousel-inner .carousel-item .d-block.mx-auto{width:84%;border-radius:10px;height:600px;border:1px solid #353334}
+.blog{display:inline-block;margin-top:20px;clear:both}
+.blog .Contenedor-Blog{width:85%;margin-left:auto;margin-right:auto;margin-bottom:0}
+.blog .Contenedor-Blog .Contenedor-Entrada{width:30%;float:left;background-color:#5F5F61;margin-left:1%;margin-right:1%;padding-top:15px;padding-right:15px;padding-bottom:15px;padding-left:15px;margin-top:20px;margin-bottom:30px;border:1px solid #353334;border-radius:10px}
+.Contenedor-Blog .Contenedor-Entrada img{width:100%;border-radius:10px}
+.Contenedor-Blog .Contenedor-Entrada h3{color:#313469;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-weight:500;font-size:26px;text-align:center}
+.Contenedor-Blog .Contenedor-Entrada p{text-align:center;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:oblique;color:#FFF;font-size:20px}
+.Contenedor-Blog .Contenedor-Entrada .Leer-Mas{display:block;background-color:#353334;color:#BB3031;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:normal;font-weight:300;font-size:25px;text-align:center;text-decoration:none;width:60%;margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:15px;border-radius:10px}
+.portafolio{margin-top:0;display:inline-block;margin-bottom:0}
+.portafolio .Contenedor-Portafolio{width:85%;margin-left:auto;margin-right:auto;margin-bottom:30px}
+.container-fluid #clothingnav1 .nav-item{width:19.5%;text-align:center}
+#clothingnavcontent1 .tab-pane{padding-left:10%;padding-right:10%;padding-top:2%;padding-bottom:2%;border-radius:10px;border:2px solid #353334}
+#clothingnavcontent1 .tab-pane h2{color:#BB3031;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:normal;font-weight:500;text-decoration:none;text-align:center}
+#clothingnavcontent1 .tab-pane img{width:100%;margin-left:0;margin-right:0;border-radius:10px;border:1px solid #353334;height:auto;margin-bottom:20px}
+#clothingnavcontent1 .tab-pane p{text-align:justify;color:#FFF;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:italic;font-variant:normal;font-weight:400;font-size:20px}
+#clothingnavcontent1 .tab-pane h3{font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:normal;color:#BB3031}
+.tab-pane ul li{color:#FFF;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:oblique;font-size:20px}
+.container-fluid #clothingnavcontent1 #home1{background-image:-webkit-linear-gradient(270deg,rgba(128,136,128,.83)0,rgba(53,51,52,1)100%),url(../Imagenes/Portafolio/Fondo1.jpg);background-image:-webkit-linear-gradient(270deg, rgba(128,136,128,.83)0, rgba(53,51,52,1)100%), url(../Imagenes/Portafolio/Fondo1.jpg);background-image:linear-gradient(180deg,rgba(128,136,128,.83)0,rgba(53,51,52,1)100%),url(../Imagenes/Portafolio/Fondo1.jpg);height:auto;background-size:100% %;background-size:100% %;background-size:100% 100%}
+.container-fluid #clothingnavcontent1 #paneTwo1{background-image:-webkit-linear-gradient(270deg,rgba(128,136,128,.87)0,rgba(53,51,52,.97)99.17%),url(../Imagenes/Portafolio/Fondo%202.jpg);background-image:-webkit-linear-gradient(270deg, rgba(128,136,128,.87)0, rgba(53,51,52,.97)99.17%), url(../Imagenes/Portafolio/Fondo%202.jpg);background-image:linear-gradient(180deg,rgba(128,136,128,.87)0,rgba(53,51,52,.97)99.17%),url(../Imagenes/Portafolio/Fondo%202.jpg);background-size:100% 100%}
+.container-fluid #clothingnavcontent1 #paneTwo2{background-image:-webkit-linear-gradient(270deg,rgba(128,136,128,.87)0,rgba(53,51,52,.97)100%),url(../Imagenes/Portafolio/Fondo3.jpg);background-image:-webkit-linear-gradient(270deg, rgba(128,136,128,.87)0, rgba(53,51,52,.97)100%), url(../Imagenes/Portafolio/Fondo3.jpg);background-image:linear-gradient(180deg,rgba(128,136,128,.87)0,rgba(53,51,52,.97)100%),url(../Imagenes/Portafolio/Fondo3.jpg);background-size:100% 100%}
+.container-fluid #clothingnavcontent1 #paneTwo3{background-image:-webkit-linear-gradient(270deg,rgba(128,136,128,.91)0,rgba(53,51,52,.98)100%),url(../Imagenes/Portafolio/Fondo4.jpg);background-image:-webkit-linear-gradient(270deg, rgba(128,136,128,.91)0, rgba(53,51,52,.98)100%), url(../Imagenes/Portafolio/Fondo4.jpg);background-image:linear-gradient(180deg,rgba(128,136,128,.91)0,rgba(53,51,52,.98)100%),url(../Imagenes/Portafolio/Fondo4.jpg);background-size:100% %;background-size:100% 100%}
+.container-fluid #clothingnavcontent1 #paneTwo4{background-image:-webkit-linear-gradient(270deg,rgba(128,128,128,.92)0,rgba(53,51,52,.98)100%),url(../Imagenes/Portafolio/fondo5.svg);background-image:-webkit-linear-gradient(270deg, rgba(128,128,128,.92)0, rgba(53,51,52,.98)100%), url(../Imagenes/Portafolio/fondo5.svg);background-image:linear-gradient(180deg,rgba(128,128,128,.92)0,rgba(53,51,52,.98)100%),url(../Imagenes/Portafolio/fondo5.svg);background-size:100% 100%}
+#clothingnavcontent1 #paneTwo4 .Contenedor-Sena{display:inline-block;width:47.5%;margin-right:2.7%;margin-top:20px}
+#paneTwo4 .Contenedor-Sena h3{text-align:center;color:#313469}
+#clothingnavcontent1 #paneTwo4 .ambiental{margin-right:0}
+.nosotros{margin-top:0;margin-bottom:0;display:inline-block}
+.nosotros .Contenedor-Nosotros{width:85%;margin-left:auto;margin-right:auto}
+.nosotros .Contenedor-Nosotros .Nosotros-Mision0{width:100%;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;border:2px solid #353334;border-radius:10px;margin-bottom:16px;background-color:#5F5F61}
+.Contenedor-Nosotros .Nosotros-Mision0 .Nosotros-Icono1{width:80px;height:80px;margin-top:0;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:45px;border:2px solid #fff;background-color:#353334;margin-left:auto;margin-right:auto;margin-bottom:16px}
+.Contenedor-Nosotros .Nosotros-Mision0 h2{color:#fff;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-size:30px;text-align:center}
+.Contenedor-Nosotros .Nosotros-Mision0 p{text-align:justify;color:#fff;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:italic;font-variant:normal;font-weight:400;font-size:18px}
+.nosotros .Contenedor-Nosotros .Nosotros-Mision{width:48%;float:left;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;border-radius:10px;border:2px solid #353334;margin-right:1%;margin-left:1%;background-color:#5F5F61;margin-bottom:30px}
+.nosotros .Contenedor-Nosotros .Nosotros-Mision:hover{background-color:#353334}
+.Contenedor-Nosotros .Nosotros-Mision .Nosotros-Icono2{background-color:#313469;width:80px;height:80px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;margin-left:auto;margin-right:auto;border-radius:45px;border:2px solid #fff;margin-bottom:16px}
+.Contenedor-Nosotros .Nosotros-Mision h2{text-align:center;color:#fff;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-size:30px;font-variant:small-caps}
+.Contenedor-Nosotros .Nosotros-Mision .Nosotros-Icono3{width:80px;height:80px;background-color:#BB3031;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:45px;margin-left:auto;margin-right:auto;border:2px solid #fff;margin-bottom:16px}
+.Contenedor-Nosotros .Nosotros-Mision p{text-align:justify;color:#fff;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-size:20px;font-style:italic}
+.Contacto{clear:both;display:block;margin-top:30px;margin-bottom:0}
+.Contacto .Contenedor-Contacto{width:85%;margin-left:auto;margin-right:auto;margin-top:30px}
+.Contacto .Contenedor-Contacto .Contenedor-Formulario{width:48%;float:left;border-radius:10px;border:2px solid #353334;margin-left:1%;margin-right:1%;height:auto;text-align:center;padding-top:20PX;padding-right:20PX;padding-bottom:20PX;padding-left:20PX;background-color:#5F5F61;margin-bottom:30px}
+.Contenedor-Contacto .Contenedor-Formulario form{width:100%;height:auto;color:#fff;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-size:20px}
+form p .cajas{width:100%;text-align:center;border-radius:20px}
+form p #submit{width:50%;border-radius:10px;font-size:25px;color:#fff;background-color:#313469}
+form p #submit:hover{color:#fff;background-color:#BB3031}
+.Contenedor-Contacto .Contenedor-Formulario iframe{width:100%;height:515px;border-radius:10px}
+body footer{clear:both}
+.Footer-Redes{background-color:#353334;display:inline-block;width:100%;margin-top:0;float:left}
+.Footer-Redes .Contenedor-Pie{width:85%;margin-left:auto;margin-right:auto}
+.Footer-Redes .Contenedor-Pie .Elementos-pie{width:23%;float:left;margin-left:1%;margin-right:1%;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px}
+.Contenedor-Pie .Elementos-pie h3{color:#BB3031;font-family:Titulo,Impact,Haettenschweiler,"Franklin Gothic Bold","Arial Black",sans-serif;font-style:italic;font-variant:small-caps;font-size:30px;text-align:center}
+.Elementos-pie a img{width:70%;margin-left:15%;margin-right:15%;margin-top:20%}
+.Contenedor-Pie .Elementos-pie .bandera{margin-top:25%;border-radius:10px;width:100%}
+.Contenedor-Pie .Elementos-pie p.gracias{color:#fff;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:italic;font-size:20px;text-align:justify;margin-top:20%}
+.Contenedor-Pie .Elementos-pie p>a>svg.icon{width:48px;height:48px;margin-left:47%;margin-right:47%;margin-top:0}
+.Footer-Pie{background-color:#5F5F61;text-align:center;width:100%;display:inline-block;color:#fff;font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;font-style:italic;font-size:15px;padding-top:20px}
+.Ir-hacia-Arriba{position:fixed;border-radius:45px;z-index:40;float:none;width:56px;height:56px;bottom:1%;left:1%;background-image:-webkit-linear-gradient(270deg,rgba(53,51,52,.41)0,rgba(53,51,52,.69)100%);background-image:-webkit-linear-gradient(270deg, rgba(53,51,52,.41)0, rgba(53,51,52,.69)100%);background-image:linear-gradient(180deg,rgba(53,51,52,.41)0,rgba(53,51,52,.69)100%);opacity:.5;-webkit-transition-duration:1s;transition-duration:1s}
+.Ir-hacia-Arriba:hover{-webkit-transform:translatey(-10px);-ms-transform:translatey(-10px);transform:translatey(-10px)}
